@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Raleway:wght@200&display=swap');
+
+body{
+    display: flexbox;
+    justify-content: center;
+    width: 1160px;
+    margin-left: auto;
+    margin-right: auto;  
+}
+
+img{
+    border-radius: 50%;
+    /*box-shadow: 10px ;*/
+}
+
+.footer, .Presentation{
+    justify-content: center;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.Coordonnees{
+    background-color: #2c1d27;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+.Presentation, footer, .box-left{
+    background-color: #782221;
+}
+
+.box-left{
+    float: left;
+    padding-left: 20px;
+    padding-right: 30px;
+}
+
+.box-right{
+    float: right;
+    padding-left: 20px;
+
+}
+
+section{
+    display: flex;
+    margin: auto;
+}
+
+
+
+
