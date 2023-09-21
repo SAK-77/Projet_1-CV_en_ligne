@@ -1,7 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato&family=Raleway:wght@200&display=swap');
+@font-face {
+    font-family: Raleway;
+    src: url('https://fonts.googleapis.com/css2?family=Lato&family=Raleway:wght@200&display=swap');
+}
+
+h1, h2, h3, h4{
+    font-family: 'Lato', sans-serif;
+}
 
 body{
-    display: flexbox;
+    /*display: flex;*/
     justify-content: center;
     width: 1160px;
     margin-left: auto;
@@ -24,60 +31,64 @@ img:hover{
     transform: scale(1.1);
 }
 
-#Coordonnees a{
+#coordonnees a{
     color: white;
     text-decoration: none;
 }
 
-#Coordonnees a:hover{
+#coordonnees a:hover{
     text-decoration: underline;
 }
 
-.title, .title-left{
+h3{
     background-color: #dbc2a4;
 }
 
-.title{
+#box-right h3{
     border-left: 5px solid #782221;
 }
 
-.title-left, #indent{
-    text-indent: 15%;
+#box-left h3, #indent{
+    text-indent: 11%;
 }
 
 #marge{
     padding-left: 30px;
 }
 
-#footer, #Presentation{
+footer, #presentation{
     justify-content: center;
     text-align: center;
     padding-top: 15px;
 }
 
-#Coordonnees{
+#coordonnees{
     background-color: #2c1d27;
     justify-content: space-between;
     padding: 20px;
+    display: flex;
 }
 
-#Presentation, footer, #box-left{
+#presentation, footer, #box-left{
     background-color: #782221;
 }
 
+section, main{
+    display: flex;
+    margin: auto;
+}
+
 #box-left{
-    float: left;
     padding-right: 30px;
 }
 
 #box-right{
-    float: right;
     padding-left: 20px;
 }
 
 #experience-1:hover, #experience-2:hover, #experience-3:hover, 
 #diplome-1:hover, #diplome-2:hover, #diplome-3:hover, 
-#c1:hover, #c2:hover, #c3:hover{
+#c1:hover, #c2:hover, #c3:hover, #c4:hover, #c5:hover{
     transform: scale(1.05);
     border-left: 5px solid #782221;
 }
@@ -97,13 +108,5 @@ i:hover {
 .fi-brands-linkedin{
     color: #007BB5;
 }
-
-section{
-    display: flex;
-    margin: auto;
-}
-
-
-
 
 
