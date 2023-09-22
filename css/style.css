@@ -46,6 +46,7 @@ h3{
 
 #box-right h3{
     border-left: 5px solid #782221;
+
 }
 
 #box-left h3, #indent{
@@ -80,10 +81,18 @@ section, main{
 
 #box-left{
     padding-right: 30px;
+    max-height: max-content;
+    width: 25%;
+    max-width: 30%;
+    box-sizing: content-box;
 }
 
 #box-right{
-    padding-left: 20px;
+    padding-left: 30px;
+    max-height: max-content;
+    width: 65%;
+    max-width: 70%;
+    box-sizing: content-box;
 }
 
 #experience-1:hover, #experience-2:hover, #experience-3:hover, 
